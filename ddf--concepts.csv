@@ -1,0 +1,7 @@
+concept,name,concept_type
+sg_gdp_p_cap_const_ppp2011_dollar,GDP per Capita Const PPP 2011 Dollar,measure
+sg_gini,Gini,measure
+sg_population,Population,measure
+name,Name,string
+geo,Geo,entity_set
+time,Time,time
