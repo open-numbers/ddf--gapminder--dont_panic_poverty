@@ -1,0 +1,107 @@
+{
+    "name": "ddf--gapminder--dont_panic_poverty",
+    "language": {
+        "id": "en"
+    },
+    "resources": [
+        {
+            "path": "ddf--concepts.csv",
+            "name": "ddf--concepts",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "concept_type"
+                    },
+                    {
+                        "name": "domain"
+                    }
+                ],
+                "primaryKey": "concept"
+            }
+        },
+        {
+            "path": "ddf--datapoints--sg_gdp_p_cap_const_ppp2011_dollar--by--geo--time.csv",
+            "name": "ddf--datapoints--sg_gdp_p_cap_const_ppp2011_dollar--by--geo--time",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "sg_gdp_p_cap_const_ppp2011_dollar"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--sg_gini--by--geo--time.csv",
+            "name": "ddf--datapoints--sg_gini--by--geo--time",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "sg_gini"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--sg_population--by--geo--time.csv",
+            "name": "ddf--datapoints--sg_population--by--geo--time",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "sg_population"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "path": "ddf--entities--geo.csv",
+            "name": "ddf--entities--geo",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "geo"
+            }
+        }
+    ]
+}

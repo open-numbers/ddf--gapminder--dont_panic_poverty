@@ -1,8 +1,0 @@
-key,value,file
-concept,name,ddf--concepts.csv
-concept,concept_type,ddf--concepts.csv
-concept,domain,ddf--concepts.csv
-"geo,time",sg_gdp_p_cap_const_ppp2011_dollar,ddf--datapoints--sg_gdp_p_cap_const_ppp2011_dollar--by--geo--time.csv
-"geo,time",sg_gini,ddf--datapoints--sg_gini--by--geo--time.csv
-"geo,time",sg_population,ddf--datapoints--sg_population--by--geo--time.csv
-geo,name,ddf--entities--geo.csv
